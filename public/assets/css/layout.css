@@ -753,11 +753,24 @@
 				padding: 10em 0;
 				background-size: cover;
 				background-position: center center;
-			}
+            }
+            
+            #background-video {
+                position: relative;
+                text-align: center;
+                width: 70%;
+                height: 20%;
+            }
+
+            #video-text {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+                background-color: #81918E;
 			}
 
 			#main > section.two {
@@ -1627,7 +1640,7 @@
     display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 767px) {
 
     /* Basic */
 
